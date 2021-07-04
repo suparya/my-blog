@@ -1,0 +1,89 @@
+.home {
+  // padding-top: 30px;
+  padding-top: 50px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* remove extra space below image */
+  }
+
+  .box.small {
+    height: 100px;
+  }
+
+  .box {
+    width: 250px;
+    border: 1px solid #ececec;
+    ;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .outer-box {
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    overflow: hidden;
+    padding: 15px;
+    border: 2px solid #ececec;
+    border-radius: 50%;
+    background-color: white;
+    // box-shadow: #ececec 5px 5px 5px 5px;
+    box-shadow: 0 0 10px rgba(236, 236, 236, 0.9);
+    -moz-box-shadow: 0 0 10px rgba(236, 236, 236, 0.9);
+    -webkit-box-shadow: 0 0 10px rgba(236, 236, 236, 0.9);
+    -o-box-shadow: 0 0 10px rgba(236, 236, 236, 0.9);
+  }
+
+  .pro_deg {
+    color: #e8e7ea;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: #9f9da4;
+    // color:#563d7f
+  }
+
+  .pro_user {
+    font-size: 30px;
+    font-weight: 500;
+    color: #563d7f;
+  }
+
+  .pro_description {
+    padding-right: 30px;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    word-wrap: break-word;
+    color: #9383ac;
+    padding-right: 100px;
+  }
+  .btn-download{
+    padding: 5px 20px;
+    border:2px solid #54ca95;
+    color: #563d7f;
+    border-radius: 20px;
+  }
+  .btn-download:hover{
+    background: #54ca95;
+    color:white !important;
+    a{
+      color:white !important;
+    }
+  }
+  
+  .btn-contact{
+    margin-left: 4px;
+    padding: 5px 20px;
+    border:2px solid #aeaeaf;
+    color: #aeaeaf;
+    border-radius: 20px;
+  }
+  .btn-contact:hover{
+    background: #aeaeaf;
+    color:white;
+  }
+  
+}

@@ -1,0 +1,44 @@
+.header {
+  padding: 10px;
+  height: auto;
+
+  ul>li {
+    color: #563d7f;
+  }
+  ul>li:focus{
+    outline: none;
+    font-weight: 600;
+    color:goldenrod;
+    // font-size: 20px;
+    // border: none;
+    // color:red;
+    cursor: pointer;
+  }
+  ul.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+  }
+
+  // width: 40px;
+  .logo {
+    height: 40px;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    color: #563d7f;
+    font-weight: 500;
+    font-size: 26px;
+  }
+
+  .userName {
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #563d7f;
+  }
+}
